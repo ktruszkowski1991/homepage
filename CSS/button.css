@@ -1,0 +1,28 @@
+
+.button {
+    background-color: cadetblue;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: grey;
+    border-color: rgb(0, 2, 128);
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: blue;
+}
+
+.button__CHangeTheme {
+    background-color: rgb(52, 128, 37);
+}
+
+.button__CHangeTheme:hover {
+    background-color: rgb(91, 230, 70);
+    border-color: rgb(6, 46, 6);
+    outline-color: darkgreen;
+}
+

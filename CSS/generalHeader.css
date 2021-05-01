@@ -1,0 +1,38 @@
+.generalHeader {
+    margin: 30px auto;
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgb(89, 87, 190);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 3px -3px 6px 0px #424242;
+}
+
+.generalHeader__CHangeTheme {
+    background-color: rgb(69, 131, 67);
+    border-color: rgb(10, 41, 12);
+    box-shadow: 3px -3px 6px 0px #0C9100;
+}
+
+.generalHeader__header {
+    display: inline-flexbox;
+    max-width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 40px;
+}
+.generalHeader__pictrue {
+    max-width: 200px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px -3px 6px 0px #424242;
+}
+.generalHeader__subHeader {
+    font-size: 18px;
+}

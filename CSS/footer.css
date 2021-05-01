@@ -1,0 +1,24 @@
+
+
+
+
+.footer {
+    margin: auto;
+    max-width: 100%;
+    padding: 50px;
+    background-color: rgb(89, 87, 190);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 3px -3px 6px 0px #424242;
+}
+
+.footer__CHangeTheme {
+    background-color: rgb(69, 131, 67);
+    border-color: rgb(10, 41, 12);
+    box-shadow: 3px -3px 6px 0px #0C9100;
+}
+

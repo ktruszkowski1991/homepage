@@ -1,0 +1,30 @@
+
+.table__Container {
+    overflow-x: auto;
+}
+
+.table__ContainerAppearance {
+    border-collapse: collapse;
+    max-width: 100%;
+    box-shadow: 3px -3px 6px 0px #424242;
+}
+
+.table__ContainerCell {
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.table__ContainerHeader {
+    background-color: cadetblue;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.table__ContainerCaption {
+    caption-side: bottom;
+    text-align: right;
+}

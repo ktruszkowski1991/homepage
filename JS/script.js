@@ -1,3 +1,5 @@
+console.log(Witaj na mojej stronie!)
+
 let theme = document.querySelector(".background")
 let generalHeader = document.querySelector(".generalHeader")
 let navigation = document.querySelector(".navigation")

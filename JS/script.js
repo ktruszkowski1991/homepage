@@ -16,14 +16,14 @@
     const toggleTheme = () => {
         const theme = document.querySelector(".background")
         const generalHeader = document.querySelector(".generalHeader")
-        const navigation = document.querySelector(".navigation")
+        const navigation = document.querySelectorAll(".navigation")
         const content__general = document.querySelector(".content__general")
         const content__aside = document.querySelector(".content__aside")
         const footer = document.querySelector(".footer")
    
 
         generalHeader.classList.toggle("generalHeader__CHangeTheme");
-        navigation.classList.toggle("navigation__ChangeTheme");
+navigation.forEach(function(elementList) {elementList.classList.toggle("navigation__ChangeTheme");});
         content__general.classList.toggle("content__generalChangeTheme");
         content__aside.classList.toggle("content__asideChangeTheme");
         footer.classList.toggle("footer__CHangeTheme");
